@@ -7,6 +7,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 .orange_text{
   color: #FD6E0A;
@@ -30,15 +31,50 @@ nav li a{
   font-size: 20px;
   font-weight: 400;
 }
-.first_btn{
+.btn-primary{
   color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 700;
-  /* width: 150px;
-  height: 65px; */
   padding: 15px 35px;
-  /* flex-shrink: 0; */
   border-radius: 5px;
   background: #FD6E0A;
   border: 0;
+}
+/* Header related styles  */
+.header{
+  background: #FFF8F3;
+}
+.banner{
+  padding: 30px 30px 30px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-title{
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-name{
+  color:#181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-paragraph{
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; 
+  /* 166.667% */
+}
+.btn-secondery{
+  color: #FD6E0A;
+  border: 2px solid #FD6E0A;
+  background: #fff;
+  margin-left: 20px;
+}
+.banner .profile-picture{
+  width: 500px;
 }

@@ -154,8 +154,8 @@ main section {
   gap: 24px;
 }
 .skill {
-  /* width: 267px;
-  height: 377px; */
+  width: 190px;
+  height: 300px;
   border-radius: 5px;
   padding: 30px;
   background: #fff;
@@ -178,7 +178,7 @@ main section {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .resume-container {
   display: flex;
@@ -194,13 +194,14 @@ main section {
   color: #474747;
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 5
+  2px;
 }
 .resume-institute {
   color: #757575;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .resume-description {
   color: #757575;

@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   font-family: 'Lato', sans-serif;
   font-family: 'Open Sans', sans-serif;
@@ -8,13 +12,14 @@ nav{
   justify-content: space-between;
   align-items: center;
   margin: 0 200px;
+  padding-top: 60px;
 }
-.orange_text{
+.orange-text{
   color: #FD6E0A;
 }
 .nav_title{
   color: #181818;
-  font-size: 45px;
+  font-size: 70px;
   font-weight: 800;
 }
 nav > ul{
@@ -28,14 +33,14 @@ nav li{
 nav li a{
   text-decoration: none;
   color: #474747;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
 }
 .btn-primary{
   color: #FFF;
   font-family: 'Lato', sans-serif;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   padding: 15px 35px;
   border-radius: 5px;
@@ -45,28 +50,39 @@ nav li a{
 /* Header related styles  */
 .header{
   background: #FFF8F3;
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .banner{
-  padding: 30px 30px 30px 200px;
+  padding: 30px 30px 0px 200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.banner-container{
+  max-width: 550px;
 }
 .banner-title{
   color: #474747;
   font-size: 45px;
   font-weight: 600;
+  margin-bottom: 0;
 }
 .banner-name{
   color:#181818;
   font-size: 85px;
   font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0;
 }
 .banner-paragraph{
   color: #757575;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px; 
+  margin-top: 20px;
+  margin-bottom: 30px;
   /* 166.667% */
 }
 .btn-secondery{
